@@ -21,3 +21,6 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 Route.on('/').render('welcome')
+Route.get('posts' , async () => {
+    return 'This is Posts'
+})
